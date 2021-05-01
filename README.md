@@ -1,12 +1,10 @@
-# express-fileupload
-Simple express middleware for uploading files.
+/express-fileupload
+Simple express middleware for uploading![npm](https://img.shields.io/npm/v/express-fileupload.svg)](https://www.npmjs.org/package/express-fileupload)
+[Build Status](https://travis-ci.com/richardgirges/express-fileupload.svg?branch=master)](https://travis-ci.com/richardgirges/express-fileupload)
+[downloads per month](http://img.shields.io/npm/dm/express-fileupload.svg)](https://www.npmjs.org/package/express-fileupload)
+[Coverage Status](https://img.shields.io/coveralls/richardgirges/express-fileupload.svg)](https://coveralls.io/r/richardgirges/express-fileupload)
 
-[![npm](https://img.shields.io/npm/v/express-fileupload.svg)](https://www.npmjs.org/package/express-fileupload)
-[![Build Status](https://travis-ci.com/richardgirges/express-fileupload.svg?branch=master)](https://travis-ci.com/richardgirges/express-fileupload)
-[![downloads per month](http://img.shields.io/npm/dm/express-fileupload.svg)](https://www.npmjs.org/package/express-fileupload)
-[![Coverage Status](https://img.shields.io/coveralls/richardgirges/express-fileupload.svg)](https://coveralls.io/r/richardgirges/express-fileupload)
-
-# Security Notice
+/ Security Notice
 Please install version 1.1.10+ of this package to avoid a security vulnerability in Node/EJS related to JS prototype pollution. This vulnerability is only applicable if you have the `parseNested` option set to `true` (it is `false` by default).
 
 # Install
@@ -92,7 +90,7 @@ Express-file-upload: Upload timeout testFile->car.png, bytes:86768
 Express-file-upload: Cleaning up temporary file /node/express-fileupload/test/temp/tmp-16-1570084843942...
 ```
 
-***Description:***
+***Description:
 
 * `Temporary file path is...` says that `useTempfiles` was set to true and also shows you temp file name and path.
 * `New upload started testFile->car.png` says that new upload started with field `testFile` and file name `car.png`.
